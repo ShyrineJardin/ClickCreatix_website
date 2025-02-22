@@ -12,7 +12,7 @@ const Slide = () => {
                     initial={{x: '-100%'}}
                     animate={{x:0}}
                     transition={{repeat: Infinity, ease:'linear', duration:20}}
-                    key={i} className="py-2 text-3xl font-oswa font-bold leading-none tracking-tighter lg:text-7xl">
+                    key={i} className="py-2 text-7xl font-oswa font-bold leading-none tracking-tighter">
                         {SLIDE_TEXT}
                     </motion.h1>
                 ))
